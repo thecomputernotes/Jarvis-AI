@@ -128,7 +128,7 @@ def Temp():
         next = takeCommand()
 
         if 'yes' in next:
-            speak("Tell Me The Name Of tHE Place ")
+            speak("sir i need you to Tell Me The Name Of tHE Place ")
             name = takeCommand()
             search = f"temperature in {name}"
             url = f"https://www.google.com/search?q={search}"
